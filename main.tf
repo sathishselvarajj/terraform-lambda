@@ -1,8 +1,6 @@
 # Specify the provider and access details
 provider "aws" {
   region     = "${var.aws_region}"
-  access_key = "AKIAJ4YHSQAHQDA6WZ6Q"
-  secret_key = "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"
 }
 
 provider "archive" {}
